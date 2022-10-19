@@ -1,0 +1,53 @@
+.main-nav {
+    display: none;
+}
+
+.title {
+    padding-bottom: 20px;;
+}
+
+.mobile-nav {
+    overflow: hidden;
+    background-color: red;
+    position: relative;
+}
+
+#mobile-nav-items {
+    background-color: grey;
+    width: 100%;
+    margin-left: 0;
+    display: none;
+    list-style-type: none;
+    text-align: center;
+}
+
+#mobile-nav-items.active {
+    display: block;
+    background-color: red;
+}
+
+#mobile-nav-items.active a {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#mobile-logo {
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+#hamburgerIcon {
+    fill: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;    
+}
+
+.title {
+    text-transform: uppercase;
+    color: white;
+}
