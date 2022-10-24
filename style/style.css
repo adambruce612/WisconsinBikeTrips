@@ -1,15 +1,28 @@
+/* https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #03071E;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .main-nav {
     display: none;
 }
 
-.title {
-    padding-bottom: 20px;;
-}
-
 .mobile-nav {
     overflow: hidden;
-    background-color: red;
+    background-color: #9D0208;
     position: relative;
+    grid-column: span 2;
 }
 
 #mobile-nav-items {
@@ -23,7 +36,7 @@
 
 #mobile-nav-items.active {
     display: block;
-    background-color: red;
+    background-color: #9D0208;
 }
 
 #mobile-nav-items.active a {
@@ -48,6 +61,15 @@
 }
 
 .title {
+    padding: 5px;
+    display: inline-block;
+}
+
+.title a {
+    color: #fff;
     text-transform: uppercase;
-    color: white;
+}
+
+@media (min-width: 720px) {
+
 }
