@@ -71,5 +71,30 @@ body {
 }
 
 @media (min-width: 720px) {
+    .wrapper {
+        grid-template-columns: repeat(12, 1fr);
+    }
+    .mobile-nav {
+        display: none;
+    }
+
+    .main-nav {
+        display: block;
+        grid-column: span 12;
+        width: 100%;
+        background: #9D0208;
+    }
+
+    #main-nav-items {
+        grid-column: span 12;
+        display: flex;
+        justify-content: space-around;
+    }
+
+   
+
+    #main-nav-items a {
+        color: #fff;
+    }
 
 }
