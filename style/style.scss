@@ -1,4 +1,33 @@
-/* https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+/*https://coolors.co/palette/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff  */
 
 @use "reset";
 
+$background-color: #0B090A;
+
+body {
+    background-color: $background-color;
+}
+
+.wrapper {
+    max-width: 1000px;
+    background-color: $background-color;
+    margin: auto;
+}
+
+//NAV
+
+#hamburgerIcon {
+    fill: #fff; 
+}
+
+#main-nav {
+    display: none;
+}
+
+.mobile-nav-items {
+    display: none;
+}
+
+.active {
+    display: block;
+}
